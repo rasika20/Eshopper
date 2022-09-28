@@ -1,13 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 export default function ProductDetails() {
   return (
    <>
+    <div>
+      <Helmet>
+        <title>Product Details | E-Shopper</title>
+      </Helmet>
+        </div>
    <header id="header">
+	
 		<div class="header_top">
+			
 			<div class="container">
 				<div class="row">
+					
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">

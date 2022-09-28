@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 export default function contactus() {
   return (
   <React.Fragment>
+	<div>
+      <Helmet>
+      <title>Contact | E-Shopper</title>
+      </Helmet>
+        </div>
     	<header id="header">
 		<div class="header_top">
 			<div class="container">

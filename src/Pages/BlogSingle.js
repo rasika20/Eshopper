@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 export default function BlogSingle() {
   return (
     <React.Fragment>
+		<div>
+      <Helmet>
+      <title>Blog Single | E-Shopper</title>
+      </Helmet>
+        </div>
         
         <header id="header">
 		<div class="header_top">

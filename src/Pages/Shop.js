@@ -1,9 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 export default function Shop() {
   return (
     <>
+	<div>
+      <Helmet>
+	  <title>Shop | E-Shopper</title>
+      </Helmet>
+        </div>
         <header id="header">
 		<div class="header_top">
 			<div class="container">

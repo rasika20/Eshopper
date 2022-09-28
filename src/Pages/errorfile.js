@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 export default function errorfile() {
   return (
     <React.Fragment> 
+		<div>
+      <Helmet>
+        <title>404 | E-Shopper</title>
+      </Helmet>
+        </div>
         	<div class="container text-center">
 		<div class="logo-404">
 		<Link to="/" ><img src="assets/images/home/logo.png" alt="" /></Link>

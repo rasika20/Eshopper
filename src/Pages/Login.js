@@ -1,9 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 export default function Login() {
     return (
         <React.Fragment>
+            <div>
+      <Helmet>
+      <title>Login | E-Shopper</title>
+      </Helmet>
+        </div>
             <header id="header">
                 <div className="header_top">
                     <div className="container">
